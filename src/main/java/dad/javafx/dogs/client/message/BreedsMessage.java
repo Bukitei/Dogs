@@ -1,0 +1,16 @@
+package dad.javafx.dogs.client.message;
+
+import java.util.List;
+
+public class BreedsMessage extends Message{
+
+	private List<String> message;	
+	
+	public List<String> getMessage() {
+		return message;
+	}
+	public void setMessage(List<String> message) {
+		this.message = message;
+	}	
+	
+}
